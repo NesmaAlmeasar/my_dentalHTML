@@ -1,0 +1,140 @@
+* {
+    padding: 0px ;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+body{
+
+   
+    background-size: cover; 
+    background-color: rgb(86, 103, 121);
+    color: #c1cfe0;
+    align-content: center;
+}
+.carddent {
+    height: 100vh;
+    background-color: #1ABC9C;
+    display: flex;
+    align-items: center;
+    background-image: url(../imgs/backgr.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    font-size: large;
+    text-transform: capitalize;
+    text-indent: 50px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    position: fixed;
+    width: 100% ;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    padding: 5px 10%;
+    transition: all .45s ease ;
+    background-color: #000;
+    opacity: .6;
+    z-index: 999;
+}
+footer{
+    width: 100% ;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    padding: 5px 10%;
+    transition: all .45s ease ;
+    background-color: #000;
+    opacity: .6;
+
+}
+footer  a {
+    color: #f1e8e8;
+    background-color: #cccccc5b;
+    border-radius: 30% ;
+}
+.headinfo{
+    color: beige;
+    font-size: 300x ;
+    font-weight: 600;
+
+}
+.navlist{
+    display: flex;
+
+}
+
+   
+.navlist a {
+    color: rgb(58, 79, 163);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 40px;
+    transition: all .45s ease;
+
+}
+.navlist a:hover{
+
+    font-size: 22px;
+    color: azure;
+    background-color: rgb(27, 27, 101);
+    border-radius: 2%;
+    transition: all .45s  ease ; 
+}
+.navlist a.active{
+    color: azure;
+
+}
+
+.cards h2 {
+    text-align: center;
+    margin: 30px 0px;
+    
+}
+
+.cardscontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    text-align: center;
+    width: 16em;
+    box-shadow:         3px 3px 5px 6px #cccccc5b;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    padding: 10px
+}
+
+.card h3{
+    margin-bottom: 10px;
+    font-weight: 1000;
+    color: rgb(14, 46, 54);
+}
+
+.card p {
+    line-height: 20px;
+    font-size:15px
+}
+
+.icon{
+  margin: -3px 0px -5px 0px ;
+  color: #233737;
+  font-size: 50px;
+ }
+
+ textarea{
+    resize: none;
+ }
+<input type="text" name="userName" class=" form-control m-mb-20" placeholder="الإسم واللقب">

@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(200, 206, 255);
+}
+img{
+    margin: 20%;
+    margin-bottom: 1px;
+    height: 50%;
+    width: 50% ;
+}
+#carddent1{
+    background-image: url(../imgs/3.png);
+    justify-content: center;
+
+}
+.cont{
+   text-align: center;
+    background-image: url(../imgs/4.png);
+    color: #000;
+
+    background-attachment: fixed;
+    background-size: cover;
+    height: 40%;
+    width: 100%;
+    overflow: auto;
+    border-radius: 10%;
+    justify-content: center;
+ 
+
+}
+p{
+    font-size:  25px;
+    font-style: italic;
+ color: rgb(21, 44, 57);
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 2rem;
+    text-align: center;
+    background-image: url(../imgs/4.png);
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-size: cover;
+    width: 100%;
+    overflow: auto;
+    justify-content: center;
+
+  }
+  
+  .about .image {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 40rem;
+            flex: 1 1 40rem;
+  }
+  
+  .about .image img {
+    width: 100%;
+  }
+  
+  .about .text {
+    width: 45rem;
+  }
+  
+  
